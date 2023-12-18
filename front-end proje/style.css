@@ -1,0 +1,477 @@
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+h6{
+    color:#D8D8D8;
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color:rgb(189, 32, 84); 
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: pink
+}
+
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: pink;
+}
+.star{
+    padding: 10px 0;
+}
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+.navbar{
+    font-size: 16PX;
+    background-color: pink;
+    top: 0;
+    left: 0;
+    
+}
+.bg-body-tertiary .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.bg-body-tertiary .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.bg-body-tertiary .navbar-nav .nav-link.active,
+.navbar i.active{
+    color: rgb(189, 32, 84);
+
+}
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+}
+
+#bar:hover,
+#bar.active{
+    color: white;
+}
+
+
+
+.bg-body-tertiary .navbar-toggler{
+    border: none;
+    outline: none;
+
+}
+#home span{
+    color:rgb(189, 32, 84) ;
+}
+
+@media only screen and (max-width: 991px){
+    body > nav > div > button:hover,
+    body > nav > div > button:focus{
+        background-color:rgb(189, 32, 84);
+    }
+}
+body > nav > div > button:hover #bar,
+    body > nav > div > button:focus #bar{
+        color: white;
+    }
+    #navbarSupportedContent > ul{
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+    
+
+
+
+
+#home{
+    background-image: url(https://4x4uruncekimi.com/assets/images/kozmetik-1400x788.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+    
+
+}
+
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(241, 216, 216, 0.7);
+}
+
+#new .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: solid #2a2a2a ;
+    padding: 2.5px;
+    transform: translateY(70px);
+    transition: 0.3s ease;
+
+}
+
+#new .one .details button:hover{
+    color: rgb(189, 32, 84);
+    border-bottom: solid rgb(189, 32, 84) ;
+}
+
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+
+}
+
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    
+}
+.details{
+    background-color: rgb(245,178,178,0.7);
+}
+
+
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    opacity: 0.7;
+}
+
+.product .buy-btn{
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#banner{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/289/367/large_2x/makeup-brushes-with-copy-space-on-a-pink-background-photo.jpg);
+    width: 99%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#banner h4{
+    color: #fff;
+}
+#banner h1{
+    color: #fff;
+}
+#banner button{
+    background-color: rgb(205, 88, 107);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:rgb(237, 184, 237);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color:rgb(234, 46, 77);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: rgb(192, 53, 76);
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: black;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: rgb(208, 84, 105);
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+#blog-container .post .post-img{
+    overflow: hidden;
+    cursor: pointer;
+}
+#blog-container .post img{
+    transition: 0.3s ease;
+}
+
+#blog-container .post:hover img{
+    transform: scale(1.3) rotate(-10deg);
+    opacity: 0.8;
+}
+#blog-container .post h3{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+#blog-container .post:hover h3{
+    color: #e91e63;
+}
+
+
+@charset "utf-8";
+        @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+        [class*="fontawesome-"]:before {
+          font-family: 'FontAwesome', sans-serif;
+        }
+
+        body {
+          background: pink;
+          color: pink;
+          font: 87.5%/1.5em 'Open Sans', sans-serif;
+          margin: 0;
+        }
+
+        p {
+          line-height: 1.5em;
+        }
+
+        after { clear: both; }
+
+        .login {
+          margin: 50px auto;
+          width: 320px;
+        }
+
+        .login form {
+          margin: auto;
+          padding: 22px 22px 22px 22px;
+          width: 100%;
+          border-radius: 5px;
+          background: rgb(200, 72, 93);
+          border-top: 3px solid rgb(200, 72, 93);
+          border-bottom: 3px solid rgb(200, 72, 93);
+        }
+
+        .login form span {
+          background-color: rgb(200, 72, 93);
+          border-radius: 3px 0px 0px 3px;
+          border-right: 3px solid rgb(200, 72, 93);
+          color: white;
+          display: block;
+          float: left;
+          line-height: 50px;
+          text-align: center;
+          width: 50px;
+          height: 50px;
+        }
+
+        .login form input[type="email"] {
+          background-color: white;
+          border-radius: 0px 3px 3px 0px;
+          color: black;
+          margin-bottom: 1em;
+          padding: 0 16px;
+          width: 90%;
+          height: 50px;
+        }
+
+        .login form input[type="password"] {
+          background-color: white;
+          border-radius: 0px 3px 3px 0px;
+          color: black;
+          margin-bottom: 1em;
+          padding: 0 16px;
+          width: 90%;
+          height: 50px;
+        }
+
+        .login form input[type="submit"] {
+          background: white;
+          border: 0;
+          width: 100%;
+          height: 40px;
+          border-radius: 3px;
+          color: black;
+          cursor: pointer;
+          transition: background 0.3s ease-in-out;
+        }
+        
+
+        .login{
+            width: 600px;
+            height: 300px;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -300px;
+            margin-top: -150px;
+        }
+
+
+
+
+
+
+
+
+
+
